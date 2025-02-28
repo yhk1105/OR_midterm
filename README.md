@@ -21,10 +21,10 @@ The project is divided into several parts:
    - **Stage 2:** Minimize the makespan while keeping the total tardiness at the minimum level obtained in Stage 1.
 
 2. **Optimal Scheduling Using Gurobi:**  
-   For instance 5 (provided as a CSV file), we formulated and solved the scheduling problem using Gurobi Optimizer. The output is a complete, business-ready schedule with job splits and machine assignments along with the corresponding objective values.
+   For instance 5, we formulated and solved the scheduling problem using Gurobi Optimizer. The output is a complete, business-ready schedule with job splits and machine assignments along with the corresponding objective values.
 
 3. **Heuristic Algorithm Development:**  
-   Recognizing that large-scale instances may be too time-consuming for exact methods, we designed and implemented a heuristic algorithm in Python 3.9. This algorithm is tested on multiple instances (five provided and ten hidden) and its performance is benchmarked against optimal or relaxed solutions.
+   Recognizing that large-scale instances may be too time-consuming for exact methods, we designed and implemented a heuristic algorithm in Python. This algorithm is tested on multiple instances and its performance is benchmarked against optimal or relaxed solutions.
 
 4. **Algorithm Analysis and Experimentation:**  
    We documented our heuristic approach in detail, including flowcharts, pseudocode, and a Big-O analysis of its time complexity. Extensive experiments on randomly generated instances are conducted to demonstrate its efficiency and robustness.
